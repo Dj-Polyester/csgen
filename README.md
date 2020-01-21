@@ -3,7 +3,7 @@ a c# file generator for facilitating working with c#.
 
 **Step (1)** move csgen.exe and csfile.bat to C:\Windows\System32
 
-**Step (2)** (optional)Apply the instructions below in the link to install mono compiler for c#, either via the video or the documentation
+**Step (2)** (optional) Apply the instructions below in the link to install mono compiler for c#, either via the video or the documentation
 
 Video: https://www.youtube.com/watch?v=FPl1Xd_B69Q
 Doc: https://www.mono-project.com/docs/
@@ -39,18 +39,18 @@ namespace filename
 ```
 mcs filename.cs
 ```
-creates an executable named filename.exe, then execute
+creates an executable named filename.exe, then to execute, just write
 ```
 filename.exe
 ```
 Your code will run.
 
 **NOTES:**
-**(1)** Please consider the name of csfile.bat, if you change its name to somethingelse.bat, then the code for creating an empty template file becomes
+**Notice (1)** Please consider the name of csfile.bat, if you change its name to somethingelse.bat, then the code for creating an empty template file becomes
 ```
 somethingelse filename
 ```
-**(2)**Most importantly you are advised to refer to the documentation for details
+**Notice (2)** Most importantly you are advised to refer to the documentation for details
 
 
 
