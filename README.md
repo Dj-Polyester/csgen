@@ -14,11 +14,11 @@ Furthermore, compiling by hand using the terminal will make debugging faster as 
 Terminal commands are as follows:
 
 **(1)** Create an empty file (if you apply step 1, this works)
-...
+```
 csfile filename
-...
+```
 creates an empty template file with the name filename.cs with below contents
-...
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,24 +35,23 @@ namespace filename
 		}
 	}
 }
-...
+```
 
 **(2)** Compile your code with mono compiler
-...
+```
 mcs filename.cs
-...
+```
 creates an executable named filename.exe, then execute
-...
+```
 filename.exe
-...
+```
 Your code will run.
 
 **NOTES:**
-**(1)**Please consider the name of csfile.bat, if you change its name to somethingelse.bat, then the code for creating an empty template file
-becomes
-...
+**(1)** Please consider the name of csfile.bat, if you change its name to somethingelse.bat, then the code for creating an empty template file becomes
+```
 somethingelse filename
-...
+```
 **(2)**Most importantly you are advised to refer to the documentation for details
 
 
