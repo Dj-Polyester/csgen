@@ -1,10 +1,9 @@
 # csgen
 a c# file generator for facilitating working with c#.
 
-**Step (1)**
-move csgen.exe and csfile.bat to C:\Windows\System32
-**Step (2)** (optional)
-Apply the instructions below in the link to install mono compiler for c#, either via the video or the documentation
+**Step (1)** move csgen.exe and csfile.bat to C:\Windows\System32
+
+**Step (2)** (optional)Apply the instructions below in the link to install mono compiler for c#, either via the video or the documentation
 
 Video: https://www.youtube.com/watch?v=FPl1Xd_B69Q
 Doc: https://www.mono-project.com/docs/
@@ -36,7 +35,6 @@ namespace filename
 	}
 }
 ```
-
 **(2)** Compile your code with mono compiler
 ```
 mcs filename.cs
