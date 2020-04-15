@@ -1,1 +1,1 @@
-@START C:\Windows\System32\csgen.exe "%1"
+@START C:\Windows\System32\csgen.exe "%*"
